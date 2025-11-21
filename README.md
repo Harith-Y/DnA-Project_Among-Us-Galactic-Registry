@@ -48,8 +48,8 @@ The `main_app.py` script provides the following features, listed in the order th
 
 2. Run the following :
     ```sh
-    mysql -u root -p < src/schema.sql>  # to create schema
-    mysql -u root -p < src/populate.sql>  # to populate data
+    mysql -u root -p < src/schema.sql  # to create schema
+    mysql -u root -p < src/populate.sql  # to populate data
 
     python src/main_app.py
     ```
